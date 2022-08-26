@@ -1,0 +1,21 @@
+//
+//  VIewController.swift
+//  Today
+//
+//  Created by Ahsan on 8/22/22.
+//
+
+import Foundation
+import UIKit
+
+class ReminderListViewController: UICollectionView {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    private func listLayout() -> UICollectionViewCompositionalLayout {
+            var listConfiguration = UICollectionLayoutListConfiguration(appearance: .grouped)
+        }
+}
+
+
